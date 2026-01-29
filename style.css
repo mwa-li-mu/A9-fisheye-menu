@@ -44,7 +44,7 @@ img {
 
 .short-label {
     pointer-events: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     transition: font-size 0.3s ease;
 }
 
