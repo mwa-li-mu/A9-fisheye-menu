@@ -16,22 +16,6 @@ img {
     height: auto;
 }
 
-.text-section {
-    background-color: rgb(232, 228, 228);
-    padding: 20px;
-    border-radius: 15px;
-    color: #2c3e50;
-}
-
-.title {
-    text-decoration: underline;
-}
-
-.instructions {
-    margin-top: 5px;
-}
-
-
 .menu-container {
     background-color: rgb(232, 228, 228);
     margin: 30px 0;
@@ -44,16 +28,13 @@ img {
     padding: 5px;
     border: 2px solid #7f8c8d;
     border-radius: 25px;
-    position: absolute;
-    top: 88vh;
-
 }
 
 .menu-item {
     width: 50px;
     height: 50px;
     background: linear-gradient(145deg, #34495e, #2c3e50);
-    border-radius: 20px;
+    border-radius: 25px;
     position: relative;
     cursor: pointer;
     display: flex;
@@ -103,8 +84,9 @@ img {
 
 .menu-item.active,
 .menu-item.hovering {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
     background: linear-gradient(145deg, #3498db, #2980b9);
     z-index: 5;
 }
