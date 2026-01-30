@@ -24,7 +24,7 @@ img {
 }
 
 .menu-container {
-    margin: 30px 0;
+    margin: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,10 +34,10 @@ img {
 }
 
 .menu-item {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background: linear-gradient(145deg, #34495e, #2c3e50);
-    border-radius: 50px;
+    border-radius: 20px;
     position: relative;
     cursor: pointer;
     display: flex;
@@ -85,12 +85,19 @@ img {
     border-top: 6px solid #2c3e50;
 }
 
-.menu-item.active,
+.menu-item.active {
+   width: 100px;
+    height: 100px;
+    border-radius: 35px;
+    background: linear-gradient(145deg, #0c4870, #0c77bf);
+    z-index: 3;
+    
+}
 .menu-item.hovering {
-    width: 120px;
-    height: 120px;
-    border-radius: 75px;
-    background: linear-gradient(145deg, #3498db, #2980b9);
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #47a0dc, #3484ba);
     z-index: 5;
 }
 
